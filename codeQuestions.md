@@ -7,5 +7,4 @@
     2.Project Structure->Modules里Sources里的Language level
 
     3.Preferences->java Compiler->Per-module bytecode Version
-    
    [csdn参考](http://blog.csdn.net/thousa_ho/article/details/72867352)
