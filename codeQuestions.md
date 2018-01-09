@@ -11,7 +11,9 @@
 
 #### 2.项目分层的原则
 
-  1.不能跨层访问
+  原则：
+  
+    1.不能跨层访问
   
-  2.只能自上向下依赖，而不能自下向上依赖（为了提高复用性）
-  [web项目分层原则和好处](http://blog.csdn.net/chenxiang0207/article/details/8392862)
+    2.只能自上向下依赖，而不能自下向上依赖（为了提高复用性）
+   [web项目分层原则和好处](http://blog.csdn.net/chenxiang0207/article/details/8392862)
