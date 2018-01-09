@@ -9,8 +9,8 @@
     3.Preferences->java Compiler->Per-module bytecode Version
    [csdn参考](http://blog.csdn.net/thousa_ho/article/details/72867352)
    
-  ②pom.xml
-  
+  ②pom.xml文件指定版本
+ 
     <build>
         <plugins>
             <plugin>
@@ -28,8 +28,9 @@
 #### 2.项目分层的原则
 
   原则：
-  
+  
     1.不能跨层访问
   
     2.只能自上向下依赖，而不能自下向上依赖（为了提高复用性）
+    
    [web项目分层原则和好处](http://blog.csdn.net/chenxiang0207/article/details/8392862)
