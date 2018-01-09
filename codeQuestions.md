@@ -1,6 +1,6 @@
 #### 1.Idea Java 版本问题
   
-  解决方法：保证三个地方设置一致
+  ①解决方法：保证三个地方设置一致
   
     1.Project Structure里确认两个地方:Project sdk以及project language level
     
@@ -8,6 +8,22 @@
 
     3.Preferences->java Compiler->Per-module bytecode Version
    [csdn参考](http://blog.csdn.net/thousa_ho/article/details/72867352)
+   
+  ②pom.xml
+  
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <compilerVersion>1.8</compilerVersion>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 #### 2.项目分层的原则
 
